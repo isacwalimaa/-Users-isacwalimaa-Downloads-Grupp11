@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="isacStyle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <title>Isacs Page</title>
+
+</head>
+
+<body>
+    <div class="navbar" id="myNavbar">
+        <a href="homeScreen.html">Home</a>
+        <a href="contactPage.html">Contact</a>
+        <a href="ourTeam.html">Our Team</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="javascript:void(0);" class="icon" onclick="openNavbar()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div>
+        <H1>Isacs Portfolio</H1>
+
+    </div>
+
+    <div class="topUser">
+        <div class="left">
+            <button id="change-image">Stop Slideshow</button>
+            <img src="images/isac.jpeg" alt=" en bild på isac" id="imgTop">
+        </div>
+        <div class="right">
+            <h4 id="isacSkills">Skills</h4>
+
+            <div class="container">
+                <p>CSS</p>
+                <div class="container">
+                    <div class="skills css">80%</div>
+                </div>
+
+                <p>JavaScript</p>
+                <div class="container">
+                    <div class="skills js">65%</div>
+                </div>
+
+                <p>Java</p>
+                <div class="container">
+                    <div class="skills php">60%</div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="quate">
+        <h3>A qoute by Isac:</h3>
+        <blockquote>"Go hard or go home"</blockquote>
+
+    </div>
+
+    <div class="bottomUser">
+        <hr>
+        <h2>
+            About me
+        </h2>
+        <p>Hi my name is Isac, I specialize in salesforce and have worked in it for about 3 years. I take my work very serious and always trying to develop myself.</p>
+
+    </div>
+    <script src="index.js"></script>
+    <script src="slideShow.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+/* skill bars /*
+/* Container for skill bars */
+.container {
+  width: 100%; 
+  background-color: white; 
+}
+#isacSkills {
+  text-align: center;
+}
+.skills {
+  text-align: right;
+  padding-bottom: 0.5em; 
+  color: white; 
+}
+
+.css {
+  width: 80%;
+  background-color: goldenrod;
+  border-radius: 0.4em;
+}
+.js {
+  width: 65%;
+  background-color: silver;
+  border-radius: 0.4em;
+} 
+.php {
+  width: 60%;
+  background-color: grey;
+  border-radius: 0.4em;
+}
+
+
+/* the button to pause unpause slideshow */
+#change-image {
+  width: 100%;
+  position: relative;
+  float: left;
+  background: goldenrod;
+  color: white;
+  border: none;
+  padding: 2%;
+  margin-bottom: 1%;
+  cursor: pointer;
+  border: 1em solid #fff;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#change-image:hover {
+  background: white;
+  color: black;
+  transition: 0.4s;
+}

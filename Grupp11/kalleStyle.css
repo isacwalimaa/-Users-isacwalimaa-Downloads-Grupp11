@@ -1,0 +1,30 @@
+/* skill bars /*
+  /* Container for skill bars */
+  .container {
+    width: 100%;
+    background-color: white; 
+  }
+  #kalleSkills {
+    text-align: center;
+  }
+  .skills {
+    text-align: right;
+    padding-bottom: 0.5em;
+    color: white; 
+  }
+
+  .css {
+    width: 60%;
+    background-color: goldenrod;
+    border-radius: 0.4em;
+  }
+  .js {
+    width: 75%;
+    background-color: silver;
+    border-radius: 0.4em;
+  } 
+  .php {
+    width: 70%;
+    background-color: grey;
+    border-radius: 0.4em;
+  }

@@ -1,0 +1,50 @@
+/* Center website */
+.main {
+  display: flex;
+  margin-top: 2%;
+  flex-wrap: wrap;
+}
+
+img{
+  object-fit: contain;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+}
+
+.row {
+  margin: 1%;
+  padding: 1%;
+}
+
+.column {
+  padding: 1%;
+  float: left;
+  width: 25%;
+}
+
+/* Content */
+.content {
+  background-color: transparent;
+  padding: 5%;
+}
+
+.content:hover {
+  background-color: goldenrod ;
+  transform:scale(1.03);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 768px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

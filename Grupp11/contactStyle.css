@@ -1,0 +1,86 @@
+body {
+  height: 100%;
+}
+
+.navbar {
+  background-color: white;
+  opacity: 0.7;
+}
+
+.container {
+  background-color: rgb(168, 168, 167);
+  border-radius: 25px;
+  padding: 2%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1em 1em;
+  border: 1em solid #ccc;
+  border-radius: 1em;
+  box-sizing: border-box;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* The class that changes when a form is valid*/
+.success input,
+.success textarea {
+  border-color: #2ecc71;
+}
+
+/* The class that changes when a form is not valid*/
+.error input,
+.error textarea {
+  border-color: #e74c3c;
+}
+
+/* Error message hidden */
+.form-control small{
+  visibility: hidden;
+}
+
+/* Error maessage shown */
+.form-control.error small{
+  visibility: visible;
+  color: #e74c3c;
+}
+
+button[type="submit"] {
+  background-color: goldenrod;
+  color: white;
+  padding: 1em 1em;
+  margin-left: 2%;
+  float: right;
+  bottom: -22%;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.message {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.btnDiv {
+  display: flex;
+  width: 20%;
+  margin: auto;
+  justify-content: center;
+}
+button[type="submit"]:hover {
+  background-color: gold;
+  color: black;
+  transition: 0.5s;
+}
+#subject {
+  background-color: white;
+  color: black;
+  float: left;
+}
+
+textarea {
+  height: 10em;
+}

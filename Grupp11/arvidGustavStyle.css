@@ -1,0 +1,136 @@
+.divheader {
+  width: 100%;
+  display: flex;
+}
+
+.header {
+  padding-left: 10%;
+  padding-right: 2%;
+  float: left;
+  width: 50%;
+}
+
+.header-spacing {
+  width: 50%;
+  float: left;
+}
+
+.main {
+  display: flex;
+  margin-top: 2%;
+  flex-wrap: wrap;
+}
+
+.divAbout {
+  width: 40%;
+  float: right;
+  padding: 10%;
+  font-size: x-large;
+  background-color: goldenrod;
+}
+
+.imgdiv-arvid {
+  width: 50%;
+  float: left;
+  padding-left: 5%;
+  background-color: transparent;
+  background-image: url(images/arvid.jpeg); /*Lägg in egen bild här*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.imgdiv-gustav{
+  width: 50%;
+  float: left;
+  padding-left: 5%;
+  background-color: transparent;
+  background-image: url(images/gustavStorre.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+/* Flexbox for mobile*/
+
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .header {
+    z-index: 1;
+    padding-left: 2%;
+    margin-right: 2em;
+  }
+
+  .header-spacing-arvid {
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    background-image: url(images/arvid.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+  }
+
+  .header-spacing-gustav{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    background-image: url(images/gustavMindre.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+}
+
+  .imgdiv {
+    display: none;
+  }
+
+  .divAbout {
+    width: 100%;
+  }
+}
+
+/* animated skillbar */
+
+.skills {
+  padding: 5%;
+  width: 100%;
+  max-width: 600em;
+}
+
+.skills-name {
+  font-size: 18em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 1% 0;
+}
+
+.skill-bar {
+  height: 1em;
+  background-color: #d3d3d3;
+  border-radius: 8em;
+  margin-bottom: 2em;
+}
+
+.skill-per {
+  height: 1em;
+  border-radius: 8em;
+  width: 0%;
+  position: relative;
+  transition: 3s linear;
+  background-color: goldenrod;
+}
+
+.skill-per::before {
+  content: attr(title);
+  position: absolute;
+  padding: 0.01em 0.3em;
+  background-color: black;
+  border-radius: 1em;
+  color: #d3d3d3;
+  font-size: 1em;
+  right: 0;
+}

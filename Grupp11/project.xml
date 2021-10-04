@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<catalog>
+   <project id="bk101">
+      <semester>HT20</semester>
+      <title>Men in black</title>
+      <genre>Grundkurs systemvetenskap</genre>
+      <date>2020 December</date>
+      <description> An application in JAVA for agents and aliens in the movie Men in black</description>
+      <image>images/logobild.jpeg</image>
+   </project>
+   <project id="bk102">
+      <semester>VT21</semester>
+      <title>Intranet for a company</title>
+      <genre>Fortsättningskurs systemutveckling</genre>
+      <date>2021 Mars</date>
+      <description> An intranet for a company made in JAVA by working as a SCRUM-team</description>
+      <image>images/logobild.jpeg</image>
+   </project>
+   <project id="bk103">
+      <semester>HT20</semester>
+      <title>Scientific report on cloud services</title>
+      <genre>Grundkurs systemvetenskap</genre>
+      <date>2020 September</date>
+      <description>A scientific report about cloud services</description>
+      <image>images/logobild.jpeg</image>
+   </project>
+   <project id="bk104">
+      <semester>VT21</semester>
+      <title>IKEA's salary system</title>
+      <genre>No course</genre>
+      <date>2021 April</date>
+      <description>An IT system for ikea to handle their staff and their salary</description>
+      <image>images/logobild.jpeg</image>
+   </project>
+   <project id="bk105">
+      <semester>VT21</semester>
+      <title>Website for Tesla</title>
+      <genre>No course</genre>
+      <date>2021 May</date>
+      <description>A website created in HTML,CSS and Javascript for Tesla's customers</description>
+      <image>images/logobild.jpeg</image>
+   </project>
+   </catalog>

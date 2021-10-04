@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactStyle.css">
+    
+    <!-- the font styles and the fa-fa bars -->
+
+    <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Contacts</title>
+
+</head>
+
+
+<body>
+    <div class="navbar" id="myNavbar">
+        <a href="homeScreen.html">Home</a>
+        <a href="contactPage.html">Contact</a>
+        <a href="ourTeam.html">Our Team</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="javascript:void(0);" class="icon" onclick="openNavbar()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <h1>Contact form</h1>
+    <h2>Enter your contact information down below</h2>
+
+    <!-- makes up the grey area to make the contactform standout -->
+    <div class="container">
+
+        <form class="form" id="form">
+            <div class="form-control">
+                <small>Error message</small>
+                <input type="text" id="contact-fname" name="firstname" placeholder="First Name">
+
+            </div>
+            <div class="form-control">
+                <small>Error message</small>
+                <input type="text" id="contact-lname" name="lastname" placeholder="Last Name">
+            </div>
+            <div class="form-control">
+                <small>Error message</small>
+                <input type="text" id="contact-pnumber" name="number" placeholder="Phone Number (optional)">
+
+            </div>
+            <div class="form-control">
+                <small>Error message</small>
+                <input type="email" id="contact-email" name="email" placeholder="E-mail">
+
+            </div>
+            <div class="form-control">
+                <div class="message">
+                    <textarea id="contact-message" name="message" placeholder="Write a message to us!"></textarea>
+                    <div class="btnDiv">
+                        <button id="contact-submit" type="submit" name="submit">Send!</button>
+                    </div>
+                </div>
+            </div>
+
+            <p id="form-message"></p>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <script src="validate.js"></script>
+</body>
+
+</html>
